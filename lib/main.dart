@@ -22,7 +22,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _selectedScreenIndex = 0;
   final List<Map<String, dynamic>> _screens = [
-    {'title': 'Perfil do Murilo', 'screen': perfil()},
+    {'title': 'Perfil do Murilou', 'screen': perfil()},
     {'title': 'Favoritos do Murilo', 'screen': favoritos()},
   ];
 
