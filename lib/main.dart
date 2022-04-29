@@ -74,3 +74,10 @@ void _toggleFavorite(Meal meal){
         : _favoriteMeals.add(meal);
   });
 }*/
+
+/*floatingActionButton: FloatingActionButton(
+child Icon(isFavorite(meal) ? Icons.star :Icons.star_border),
+onPressed(){
+  onToggleFavorite(meal);
+},
+),*/
