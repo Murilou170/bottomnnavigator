@@ -15,6 +15,8 @@ void main() {
 
 class Home extends StatefulWidget {
 
+
+
   @override
   State<Home> createState() => _HomeState();
 }
@@ -31,6 +33,7 @@ class _HomeState extends State<Home> {
       _selectedScreenIndex = index;
     });
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -62,3 +65,12 @@ class _HomeState extends State<Home> {
     );
   }
 }
+
+/*
+void _toggleFavorite(Meal meal){
+  setState((){
+    _favoriteMeals.contains(meal)
+        ? _favoriteMeals.remove(meal)
+        : _favoriteMeals.add(meal);
+  });
+}*/
